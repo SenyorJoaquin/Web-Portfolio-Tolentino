@@ -13,9 +13,9 @@
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
-                <li><a href="#Experience">Experience</a></li>
-                <li><a href="#Projects">Projects</a></li>
-                <li><a href="#Contact">Contact</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -30,8 +30,8 @@
             <div class="menu-links">
                 <li><a href="#about" onclick="toggleMenu()">About</a></li>
                 <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-                <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>
-                <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
             </div>
         </div>
     </nav>
@@ -168,6 +168,26 @@
                                 <p>Experienced</p>
                             </div>  
                         </article>
+                        <article>
+                            <img 
+                              src="./assets//react.png" 
+                              alt="Experience Icon"
+                              class="icon">
+                            <div>
+                                <h3>React</h3>
+                                <p>Intermediate</p>
+                            </div>  
+                        </article>
+                        <article>
+                            <img 
+                              src="./assets//swift.png" 
+                              alt="Experience Icon"
+                              class="icon">
+                            <div>
+                                <h3>Swift</h3>
+                                <p>Basic</p>
+                            </div>  
+                        </article>
                     </div>
                 </div>
                 <div class="details-container">
@@ -213,6 +233,26 @@
                                 <p>Basic</p>
                             </div>  
                         </article>
+                        <article>
+                            <img 
+                              src="./assets//python.png" 
+                              alt="Experience Icon"
+                              class="icon">
+                            <div>
+                                <h3>Python</h3>
+                                <p>Experienced</p>
+                            </div>  
+                        </article>
+                        <article>
+                            <img 
+                              src="./assets//java.png" 
+                              alt="Experience Icon"
+                              class="icon">
+                            <div>
+                                <h3>Java</h3>
+                                <p>Experienced</p>
+                            </div>  
+                        </article>
                     </div>
                 </div>
             </div>
@@ -221,7 +261,7 @@
           src="./assets/arrow.png"
           alt="Arrow Icon"
           class="icon arrow"
-          onclick="location.href='./#experience'"
+          onclick="location.href='./#projects'"
         />
     </section>
 <!-- =======================================EXPERIENCE SECTION ===============================================--> 
@@ -229,9 +269,10 @@
 
 <!-- =======================================PROJECTS SECTION ===============================================--> 
     <section id="projects">
-        <p class="section__text__p1">Check out some of my</p>
+        <p class="section__text__p1">Check out my recent</p>
         <h1 class="title">Projects</h1>
         <div class="experience-details-container">
+            <div class="about-containers">
             <div class="details-container color-container">
                 <div class="article-container">
                     <img 
@@ -241,6 +282,24 @@
                     />
                 </div>
                 <h2 class="experience-sub-title project-title">Library Lane</h2>
+
+                <img 
+                    src="./assets//mysql2.png" 
+                    title="MySQL"
+                    alt="Experience Icon"
+                    class="icon">
+                <img 
+                    src="./assets//jsp.png" 
+                    title="Java Server Pages"
+                    alt="Experience Icon"
+                    class="icon">
+                <img 
+                    src="./assets//springboot.svg" 
+                    title="Springboot"
+                    alt="Experience Icon"
+                    class="icon">
+
+                <p class="experience-sub-header">Library Lane is a Database Management system made to streamline the process of Data entry for Librarians. <br> This includes CRUD operations along with a Checkout/Return function for books. </p>
                 <div class="btn-container">
                     <button 
                         class="btn btn-color-2 project-btn" 
@@ -250,32 +309,8 @@
                     </button>
                     <button 
                         class="btn btn-color-2 project-btn"
-                        onclick="location.href='https://github.com'"
-                        >
-                        Live Demo
-                    </button>
-                </div>
-            </div>
-            <div class="details-container color-container">
-                <div class="article-container">
-                    <img 
-                      src="./assets/librarylane.png"
-                      alt="Project 1"
-                      class="project-img"
-                    />
-                </div>
-                <h2 class="experience-sub-title project-title">Library Lane</h2>
-                <div class="btn-container">
-                    <button 
-                        class="btn btn-color-2 project-btn" 
                         onclick="location.href='https://github.com/SenyorJoaquin/LibraryLane-DBM'"
                         >
-                        Github
-                    </button>
-                    <button 
-                        class="btn btn-color-2 project-btn"
-                        onclick="location.href='https://github.com'"
-                        >
                         Live Demo
                     </button>
                 </div>
@@ -283,29 +318,122 @@
             <div class="details-container color-container">
                 <div class="article-container">
                     <img 
-                      src="./assets/librarylane.png"
+                      src="./assets/coderunner.png"
                       alt="Project 1"
                       class="project-img"
                     />
                 </div>
-                <h2 class="experience-sub-title project-title">Library Lane</h2>
+                <h2 class="experience-sub-title project-title">CodeRunner</h2>
+
+                <img 
+                    src="./assets//dart.png" 
+                    title="Dart"
+                    alt="Experience Icon"
+                    class="icon">
+                <img 
+                    src="./assets//cplusplus.png" 
+                    title="C++"
+                    alt="Experience Icon"
+                    class="icon">
+
+                <p class="experience-sub-header">CodeRunner is a Gamified Swift and Flutter Code quiz application. Players may test their proficiency in both languages <br> by filling in the blanks with the correct code. Beware though! You only have three lives. . .  </p>
                 <div class="btn-container">
                     <button 
                         class="btn btn-color-2 project-btn" 
-                        onclick="location.href='https://github.com'"
+                        onclick="location.href='https://github.com/SenyorJoaquin/CodeRunner-main'"
                         >
                         Github
                     </button>
                     <button 
                         class="btn btn-color-2 project-btn"
-                        onclick="location.href='https://github.com'"
+                        onclick="window.open('./assets/CodeRunner_Walkthrough.pdf')"
                         >
-                        Live Demo
+                        Walkthrough
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img 
+                      src="./assets/easyencrypt.png"
+                      alt="Project 1"
+                      class="project-img"
+                    />
+                </div>
+                <h2 class="experience-sub-title project-title">EasyEncrypt</h2>
+
+                <img 
+                    src="./assets//python.png" 
+                    title="Python"
+                    alt="Experience Icon"
+                    class="icon">
+
+                <p class="experience-sub-header">A Cryptography Application that Encrypts/Decrypts files for secure Person to Person transfer. This application was made with the intent of exploring the relation of discrete mathematics to Cryptography and Encryption.</p>
+                <div class="btn-container">
+                    <button 
+                        class="btn btn-color-2 project-btn" 
+                        onclick="location.href='https://github.com/SenyorJoaquin/EasyEncrypt'"
+                        >
+                        Github
+                    </button>
+                    <button 
+                        class="btn btn-color-2 project-btn"
+                        onclick="window.open('./assets/easyencrypt_guide.txt')"
+                        >
+                        Guide
                     </button>
                 </div>
             </div>
         </div>
+        </div>
+        <img 
+          src="./assets/arrow.png"
+          alt="Arrow Icon"
+          class="icon arrow"
+          onclick="location.href='./#contact'"
+        />
     </section>
+<!-- =======================================PROJECTS SECTION ===============================================--> 
+
+
+<!-- =======================================CONTACT SECTION ===============================================--> 
+    <section id="contact">
+        <p class="section__text__p1">Hit Me Up!</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+           <div class="contact-info-container">
+                <img 
+                  src="./assets/gmail.png"
+                  alt="Email Icon"
+                  class="icon contact-icon"
+                />  
+                <p><a href="mailto:joaquin.sison.tolentino@gmail.com">joaquin.sison.tolentino@gmail.com</a>
+                </p>
+           </div> 
+           <div class="contact-info-container">
+                <img 
+                src="./assets/linkedin.png"
+                alt="Linkedin Icon"
+                class="icon contact-icon"
+                />  
+                <p><a href="https://www.linkedin.com/in/joaquin-tolentino-a877b3303/">LinkedIn</a>
+                </p>
+            </div> 
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p> Copyright &#169; 2024, Joaquin Lorenzo Sison Tolentino. All Rights Reserved</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
