@@ -8,6 +8,7 @@
 
 body {
     font-family:"Roboto", sans-serif;
+    background-color: #252525;
 }
 
 label {
@@ -42,7 +43,7 @@ input {
 }
 
 input:checked + label {
-    background: #242424;
+    background: #000000;
 }
 
 input:checked + label::after {
@@ -73,7 +74,11 @@ html {
 }
 
 p{
-    color: rgb(85, 85, 85);
+    color: rgb(0, 0, 0);
+}
+
+h1{
+    color: #b6cdd4;
 }
 
 /* Transitions */
@@ -102,13 +107,13 @@ nav {
 }
 
 a {
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
-    text-decoration-color: white;
+    text-decoration-color: rgb(0, 0, 0);
 }
 
 a:hover {
-    color: gray;
+    color: rgb(137, 220, 231);
     text-decoration: underline;
     text-underline-offset: 1rem;
     text-decoration-color: rgb(181, 181, 181);
@@ -116,6 +121,7 @@ a:hover {
 
 .logo {
     font-size: 2rem; 
+    color: white;
 }
 
 .logo:hover {
@@ -250,11 +256,13 @@ section {
 }
 
 .section__text__p1 {
+    color: #fff;
     font-size: 1.75rem;
     margin-bottom: 1rem;
 }
 
 .section__text__p2 {
+    color: white;
     font-size: 1.75rem;
     margin-bottom: 1rem;
 }
@@ -298,7 +306,8 @@ section {
 
 .btn-color-1, 
 .btn-color-2 {
-    border: rgb(53, 53, 53) 0.1rem solid;
+    border: rgb(250, 250, 250) 0.1rem solid;
+    color: white;
 }
 
 .btn-color-1:hover, 
@@ -308,12 +317,11 @@ section {
 
 .btn-color-1, 
 .btn-color-2:hover{
-    background: rgb(53, 53, 53);
-    color: white;
+    background: #242424;
 }
 
 .btn-color-1:hover {
-    background: rgb(0, 0, 0);
+    background: #b6cdd4;
 }
 
 .btn-color-2 {
@@ -321,6 +329,7 @@ section {
 }
 
 .btn-color-2:hover {
+    background: #b6cdd4;
     border: rgb(255, 255, 255) 0.1rem solid;
 }
 
@@ -346,6 +355,10 @@ section {
     flex-direction: column;
     position: relative;
     bottom: 87px;
+}
+
+.text-container p{
+    color: white;
 }
 
 .about-containers,
