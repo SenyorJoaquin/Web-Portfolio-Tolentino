@@ -15,6 +15,9 @@
     #hamburger-nav {
         display: flex;
     }
+    #darkmode-toggle{
+        display: flex;
+    }
     #experience, 
     .experience-details-container {
         margin-top: 2rem;
@@ -48,11 +51,11 @@
         margin: 0 auto 2rem;
     }
     #profile_pic {
-        width: 500px;
-        height: 500px;
+        width: 480px;
+        height: 480px;
         position: relative;
         bottom: 130px;
-        left: 200px;
+        left: 205px;
     }
     .about-containers {
         margin-top: 0;
