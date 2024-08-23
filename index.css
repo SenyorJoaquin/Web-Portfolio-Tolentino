@@ -202,7 +202,7 @@ a:hover {
 /* SECTIONS STYLING */
 section {
     padding-top: 4vh;
-    height: 96vh;
+    height: 100vh;
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
@@ -338,7 +338,13 @@ section {
 .about-containers {
     gap: 2rem;
     margin-bottom: 2rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
+}
+
+.about-section-containers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 22rem;
 }
 
 .about-details-container {
@@ -349,6 +355,11 @@ section {
 }
 
 .about-containers,
+.about-details-container {
+    display: flex;
+}
+
+.about-section-containers,
 .about-details-container {
     display: flex;
 }
@@ -487,10 +498,6 @@ article.icon {
     font-size: larger;
 }
 
-.contact-icon {
-    cursor: default;
-}
-
 .mail-icon {
     height: 2.5rem;
 }
@@ -504,4 +511,10 @@ footer {
 
 footer p {
     text-align: center;
+}
+
+
+/*ABOUT CONTENTS STYLING */
+.answer {
+    margin: 1rem;
 }
