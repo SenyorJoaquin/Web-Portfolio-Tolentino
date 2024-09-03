@@ -278,6 +278,13 @@ section {
     padding-bottom: 15px;
 }
 
+.contact-title {
+    font-size: 3rem;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 90vh;
+}
+
 
 #socials-container {
     display: flex;
@@ -413,6 +420,7 @@ section {
 
 #experience {
     position: relative;
+    top: 25vh;
 }
 
 .experience-sub-title {
@@ -455,6 +463,7 @@ article.icon {
 
 #projects {
     position: relative;
+    top: 25vh;
 }
 
 .color-container {
@@ -520,6 +529,7 @@ article.icon {
 footer {
     height: 26vh;
     margin: 0 1rem;
+    padding-top: 40vh;
 }
 
 footer p {
